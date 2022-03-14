@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+/* navbar */
+#main-nav {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 0px transparent;
+    transition: background 0.3s ease-out;
+}
+
+#main-nav .navbar-brand {
+    color: white;
+}
+
+#main-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease-out;
+}
+
+#main-nav .navbar-light .navbar-nav .nav-link:hover {
+    color: $se-red;
+}
+
+#main-nav.scrolled {
+    background-color: $se-blue;
+}
+
+/* home banner */
+
+.banner {
+    height: 90vh;
+    background: url("../img/home-banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    h1 {
+        position: relative;
+        color: white;
+        font-size: 88px;
+    }
+
+    p {
+        position: relative;
+        color: white;
+        font-size: 24px;
+
+    }
+
+    .form-holder {
+        background-color: white;
+        position: relative;
+
+        p {
+            font-size: 1em;
+            color: $se-grey;
+        }
+    }
+ }
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+    background: $se-blue;
+}
+
+/* footer */
+
+.footer {
+    background-color: $se-blue;
+    color: white;
+}
+
+/* helpers */
+
+.red-box {
+    background-color: $se-red;
+    z-index: 100;
+    position: relative;
+
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.n-m {
+    margin-top: -100px;
+}
+.lead {
+    color: $se-grey;
+}
+
+.white-box {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.img-holder {
+    position: relative;
+
+    .img-content {
+        background-color: $se-blue;
+        width: 70%;
+        position: absolute;
+        bottom: 60px;
+        right:0;
+    } 
+
+    span {
+        color: white;
+        font-size: 13px;
+    }
+
+    h4 {
+        color: white;
+        font-size: 45px;
+        margin: 0;
+    }
+    p {
+        color: white;
+        margin: 0;
+    }
+
+}

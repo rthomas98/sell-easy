@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Blank Page Template
+ * Template Name: Our Process Page Template
  *
  * Template for displaying a blank page.
  *
@@ -20,11 +20,14 @@ defined( 'ABSPATH' ) || exit;
 	<?php wp_head(); ?>
 </head>
 <body>
+<?php get_template_part( 'global-templates/navbar' ); ?>
+
 	<?php
 	while ( have_posts() ) {
 		the_post();
-		get_template_part( 'loop-templates/content', 'blank' );
+		get_template_part( 'loop-templates/content', 'process' );
 	}
+	get_template_part( 'global-templates/site-footer' );
 	wp_footer();
 	?>
 </body>

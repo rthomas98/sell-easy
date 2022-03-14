@@ -47,6 +47,14 @@ function theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
 
+register_nav_menus(
+	array(
+		'main-menu' => __( 'Main Menu', 'understrap' ),
+		'footer-menu' => __( 'Footer Menu', 'understrap' ),
+	)
+);
+
+
 
 /**
  * Load the child theme's text domain
