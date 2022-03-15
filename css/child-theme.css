@@ -15671,6 +15671,14 @@ figure.woocommerce-product-gallery__wrapper {
 }
 
 /* helpers */
+.bg-light-grey {
+  background-color: #F4F7FC;
+}
+
+.bg-red {
+  background-color: #D90429;
+}
+
 .red-box {
   background-color: #D90429;
   z-index: 100;
@@ -15693,6 +15701,9 @@ figure.woocommerce-product-gallery__wrapper {
 
 .white-box {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  position: relative;
+  background-color: white;
 }
 
 .img-holder {

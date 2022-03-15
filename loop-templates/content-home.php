@@ -107,3 +107,137 @@
         </div>
     </div>
 </div>
+
+<div class="container py-5">
+    <div class="row d-flex align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+        <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/qualifies-img.jpg" alt="older couple dancing">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <p class="lead">Fusce posuere eu libero mattis condimentum.</p>
+            <h2>See if your policy qualifies</h2>
+            <p>
+            Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-light-grey py-5">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col text-center">
+                <h2>See if your policy qualifies</h2>
+                <p class="lead">Your life insurance policy is a financial asset – one that can be sold for cash.</p>
+            </div>
+        </div>
+        <div class="row mb-4 d-flex align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/qualifies-img-1.jpg" alt="older couple sitting on a sofa">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <h3>Be age 65 or older.</h3>
+                <p>
+                    Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
+                </p>
+                <p>
+                Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
+                </p>
+            </div>
+        </div>
+        <div class="row mb-4 d-flex align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <h3>Have a change in health.</h3>
+                <p>
+                    Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
+                </p>
+                <p>
+                Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/qualifies-img-2.jpg" alt="older couple hugging">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <p class="text-center">
+                    <a class="btn btn-primary">Find Out If You Qualify</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row mb-4">
+        <div class="col text-center">
+            <p class="lead">Your life insurance policy is a financial asset – one that can be sold for cash.</p>
+            <h2>Why would I want to sell my life insurance?</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-img-1.jpg" alt="">
+            <div class="px-5 n-m">
+                <div class="white-box p-4 text-center">
+                    <h4>Fund <br>Retirement</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-img-2.jpg" alt="">
+            <div class="px-5 n-m">
+                <div class="white-box p-4 text-center">
+                    <h4>Cover Medical <br>Expenses</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-img-3.jpg" alt="">
+            <div class="px-5 n-m">
+                <div class="white-box p-4 text-center">
+                    <h4>Provide Peace <br>of Mind</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row d-flex align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <h2>What is Sell Easy?</h2>
+            <p>
+            Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
+            </p>
+            <p>
+            Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
+            </p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/what-is-sell-easy.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row d-flex align-items-center bg-red p-5">
+        <div class="col-sm-12 col-md-12 col-lg-9">
+            <h2 class="text-white">Get a personalized estimate.</h2>
+            <p class="lead text-white">
+                Your life insurance policy is a financial asset – one that can be sold for cash.
+            </p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="d-grid gap-2">
+                <button class="btn btn-secondary" type="button">Qualify Now</button>
+                <button class="btn btn-secondary" type="button">021-345-4756</button>
+            </div>
+        </div>
+    </div>
+</div>
