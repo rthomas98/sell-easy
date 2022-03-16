@@ -15664,6 +15664,24 @@ figure.woocommerce-product-gallery__wrapper {
   background: #072AC8;
 }
 
+.sub-banner {
+  height: 50vh;
+}
+
+.dark-tint {
+  position: relative;
+}
+.dark-tint:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  background: #343434;
+}
+
 /* footer */
 .footer {
   background-color: #072AC8;
@@ -15677,6 +15695,11 @@ figure.woocommerce-product-gallery__wrapper {
 
 .bg-red {
   background-color: #D90429;
+}
+
+.bg-blue {
+  background-color: #072AC8;
+  position: relative;
 }
 
 .red-box {

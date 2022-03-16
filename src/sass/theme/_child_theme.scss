@@ -71,6 +71,25 @@
     background: $se-blue;
 }
 
+.sub-banner {
+    height: 50vh;
+}
+
+.dark-tint {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .5;
+        background: $se-shade;
+    }
+}
+
 /* footer */
 
 .footer {
@@ -85,6 +104,10 @@
 }
 .bg-red {
     background-color: $se-red;
+}
+.bg-blue {
+    background-color: $se-blue;
+    position: relative;
 }
 .red-box {
     background-color: $se-red;
