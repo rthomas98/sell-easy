@@ -73,6 +73,14 @@
 
 .sub-banner {
     height: 50vh;
+
+    h1 {
+        position: relative;
+    }
+
+    p {
+        position: relative;
+    }
 }
 
 .dark-tint {
@@ -87,6 +95,21 @@
         left: 0;
         opacity: .5;
         background: $se-shade;
+    }
+}
+
+.red-tint {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .7;
+        background: $se-red;
     }
 }
 

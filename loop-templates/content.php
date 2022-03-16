@@ -9,6 +9,8 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
+<?php get_template_part( '../global-templates/navbar' ); ?>
+
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<header class="entry-header">

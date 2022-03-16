@@ -21,18 +21,21 @@
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="red-box p-5 text-center">
+                <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sack-dollar-solid.svg" alt="" width="60">
                 <h3>Fund <br>Retirement</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="red-box p-5 text-center">
+                <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/briefcase-medical-solid.svg" alt="" width="60">
                 <h3>Cover Medical <br>Expenses</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="red-box p-5 text-center">
+                <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/head-side-brain-solid.svg" alt="" width="60">
                 <h3>Provide Peace<br> of Mind</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
             </div>
@@ -52,6 +55,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="white-box p-5 text-center">
                 <h3>1.</h3>
+                <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/envelope-open-text-solid.svg" alt="" width="60">
                 <h4>Submit</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
             </div>
@@ -59,6 +63,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="white-box p-5 text-center">
                 <h3>2.</h3>
+                <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/signature-solid.svg" alt="" width="60">
                 <h4>Docusign</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
             </div>
@@ -66,6 +71,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="white-box p-5 text-center">
                 <h3>3.</h3>
+                <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/money-bill-solid.svg" alt="" width="60">
                 <h4>Get Cash</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.c</p>
             </div>

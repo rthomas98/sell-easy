@@ -15667,6 +15667,12 @@ figure.woocommerce-product-gallery__wrapper {
 .sub-banner {
   height: 50vh;
 }
+.sub-banner h1, .sub-banner .h1 {
+  position: relative;
+}
+.sub-banner p {
+  position: relative;
+}
 
 .dark-tint {
   position: relative;
@@ -15680,6 +15686,20 @@ figure.woocommerce-product-gallery__wrapper {
   left: 0;
   opacity: 0.5;
   background: #343434;
+}
+
+.red-tint {
+  position: relative;
+}
+.red-tint:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+  background: #D90429;
 }
 
 /* footer */
