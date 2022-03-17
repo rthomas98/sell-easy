@@ -83,6 +83,24 @@
     }
 }
 
+.blog-banner {
+    height: 50vh;
+    background: url("../img/blog-banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    h1 {
+        position: relative;
+    }
+
+    p {
+        position: relative;
+    }
+}
+
 .dark-tint {
     position: relative;
 
@@ -97,6 +115,22 @@
         background: $se-shade;
     }
 }
+
+.blue-tint {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .6;
+        background: $se-blue;
+    }
+}
+
 
 .red-tint {
     position: relative;
@@ -188,3 +222,13 @@
 
 }
 
+.post-content-recent {
+     h2 a {
+         color: white;
+         text-decoration: none;
+     }
+
+     p {
+         color: white;
+     }
+}

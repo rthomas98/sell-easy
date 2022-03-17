@@ -15674,6 +15674,19 @@ figure.woocommerce-product-gallery__wrapper {
   position: relative;
 }
 
+.blog-banner {
+  height: 50vh;
+  background: url("../img/blog-banner.jpg") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+.blog-banner h1, .blog-banner .h1 {
+  position: relative;
+}
+.blog-banner p {
+  position: relative;
+}
+
 .dark-tint {
   position: relative;
 }
@@ -15686,6 +15699,20 @@ figure.woocommerce-product-gallery__wrapper {
   left: 0;
   opacity: 0.5;
   background: #343434;
+}
+
+.blue-tint {
+  position: relative;
+}
+.blue-tint:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  background: #072AC8;
 }
 
 .red-tint {
@@ -15771,6 +15798,14 @@ figure.woocommerce-product-gallery__wrapper {
 .img-holder p {
   color: white;
   margin: 0;
+}
+
+.post-content-recent h2 a, .post-content-recent .h2 a {
+  color: white;
+  text-decoration: none;
+}
+.post-content-recent p {
+  color: white;
 }
 
 .has-blue-color,
