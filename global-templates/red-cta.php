@@ -8,7 +8,7 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-3">
             <div class="d-grid gap-2">
-                <button class="btn btn-secondary" type="button">Qualify Now</button>
+                <a href="<?php echo site_url("do-i-qualify"); ?>" class="btn btn-secondary" type="button">Qualify Now</a>
                 <button class="btn btn-secondary" type="button">021-345-4756</button>
             </div>
         </div>

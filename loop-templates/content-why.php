@@ -15,7 +15,7 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
                         Your life insurance policy is a financial asset – one that can be sold for cash.
                     </p>
                     <p class="mt-4">
-                        <a class="btn btn-primary btn-lg">
+                        <a href="<?php echo site_url("do-i-qualify"); ?>" type="button" class="btn btn-primary btn-lg">
                             Do I Qualify?
                         </a>
                     </p>

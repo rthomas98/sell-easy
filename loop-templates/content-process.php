@@ -13,7 +13,7 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
                     Your life insurance policy is a financial asset – one that can be sold for cash.
                 </p>
                 <p class="mt-4">
-                    <a class="btn btn-secondary btn-lg">Do I Qualify?</a>
+                    <a href="<?php echo site_url("do-i-qualify"); ?>" class="btn btn-secondary btn-lg">Do I Qualify?</a>
                 </p>
             </div>
         </div>
@@ -83,7 +83,9 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
             Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
             </p>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6"></div>
+        <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/shutterstock_504319978.jpg" alt="people smiling">
+        </div>
     </div>
 </div>
 
@@ -99,7 +101,7 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
                 Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.                 </p>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
-                
+                 <?php gravity_form( 'Home Banner Form', false, false, false, '', false ); ?>
             </div>
         </div>
     </div>

@@ -173,7 +173,7 @@
         <div class="row mt-5">
             <div class="col text-center">
                 <p class="text-center">
-                    <a class="btn btn-primary">Find Out If You Qualify</a>
+                    <a href="<?php echo site_url("do-i-qualify"); ?>" class="btn btn-primary">Find Out If You Qualify</a>
                 </p>
             </div>
         </div>

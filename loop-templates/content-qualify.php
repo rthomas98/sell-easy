@@ -15,7 +15,7 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu vulputate velit. Proin ut consequat leo, eu efficitur nulla.                    </p>
                     <p class="mt-4">
-                        <a class="btn btn-secondary btn-lg">
+                        <a href="<?php echo site_url("why-sell"); ?>" class="btn btn-secondary btn-lg">
                             Why Sell?
                         </a>
                     </p>
