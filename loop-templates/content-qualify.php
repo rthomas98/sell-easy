@@ -68,7 +68,7 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
     </div>
     <div class="row">
         <div class="col">
-
+            <?php gravity_form( 'Home Banner Form', false, false, false, '', false ); ?>
         </div>
     </div>
 </div>

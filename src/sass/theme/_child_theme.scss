@@ -15,6 +15,10 @@
 #main-nav .nav-link {
     color: white;
     transition: color 0.3s ease-out;
+
+    &:active {
+        color: $se-red;
+    }
 }
 
 #main-nav .navbar-light .navbar-nav .nav-link:hover {
@@ -231,4 +235,55 @@
      p {
          color: white;
      }
+}
+  .gform_wrapper.gravity-theme .gf_progressbar_percentage {
+    border-radius: 10.5px;
+    height: 20.992px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: $se-red !important;
+    color: #fff !important;
+  }
+  
+
+.gform_next_button {
+    color: #fff !important;
+    background-color: $se-blue !important;
+    border-color: $se-blue !important;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.gform_wrapper.gravity-theme .gform_previous_button.button, .gform_wrapper.gravity-theme .gform_save_link.button {
+    color: #fff !important;
+    background-color: $se-red !important;
+    border-color: $se-red !important;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }

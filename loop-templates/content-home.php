@@ -1,10 +1,12 @@
 <div class="banner py-5 d-flex align-items-center">
     <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="form-holder p-5">
                     <h4>Find Out if You Qualify to Sell Your Policy</h4>
                     <p>Please complete the form below to take the next step toward selling your policy.</p>
+
+                    <?php gravity_form( 'Home Banner Form', false, false, false, '', false ); ?>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -125,6 +127,8 @@
             <p>
             Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. 
             </p>
+
+            <?php gravity_form( 'Home Banner Form', false, false, false, '', false ); ?>
         </div>
     </div>
 </div>
@@ -231,19 +235,4 @@
     </div>
 </div>
 
-<div class="container py-5">
-    <div class="row d-flex align-items-center bg-red p-5">
-        <div class="col-sm-12 col-md-12 col-lg-9">
-            <h2 class="text-white">Get a personalized estimate.</h2>
-            <p class="lead text-white">
-                Your life insurance policy is a financial asset – one that can be sold for cash.
-            </p>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-3">
-            <div class="d-grid gap-2">
-                <button class="btn btn-secondary" type="button">Qualify Now</button>
-                <button class="btn btn-secondary" type="button">021-345-4756</button>
-            </div>
-        </div>
-    </div>
-</div>
+<?php get_template_part( 'global-templates/red-cta'); ?>

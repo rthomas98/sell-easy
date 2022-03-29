@@ -15618,6 +15618,9 @@ figure.woocommerce-product-gallery__wrapper {
   color: white;
   transition: color 0.3s ease-out;
 }
+#main-nav .nav-link:active {
+  color: #D90429;
+}
 
 #main-nav .navbar-light .navbar-nav .nav-link:hover {
   color: #D90429;
@@ -15806,6 +15809,57 @@ figure.woocommerce-product-gallery__wrapper {
 }
 .post-content-recent p {
   color: white;
+}
+
+.gform_wrapper.gravity-theme .gf_progressbar_percentage {
+  border-radius: 10.5px;
+  height: 20.992px;
+  text-align: right;
+  vertical-align: middle;
+  background-color: #D90429 !important;
+  color: #fff !important;
+}
+
+.gform_next_button {
+  color: #fff !important;
+  background-color: #072AC8 !important;
+  border-color: #072AC8 !important;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.gform_wrapper.gravity-theme .gform_previous_button.button, .gform_wrapper.gravity-theme .gform_save_link.button {
+  color: #fff !important;
+  background-color: #D90429 !important;
+  border-color: #D90429 !important;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .has-blue-color,
