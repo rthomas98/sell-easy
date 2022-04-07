@@ -1,6 +1,8 @@
 <nav id="main-nav" class="fixed-top navbar navbar-expand-lg navbar-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">Sell Easy</a>
+  <div class="container d-flex align-items-center">
+    <a class="navbar-brand mt-3" href="<?php echo site_url("/"); ?>">
+		<img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/SellEasyLogo-white.png" alt="" width="150">
+	</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
