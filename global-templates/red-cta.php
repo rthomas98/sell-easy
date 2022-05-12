@@ -1,16 +1,14 @@
-<div class="container py-5">
-    <div class="row d-flex align-items-center bg-red p-5">
+<div class="container py-5 red-cta">
+    <div class="row d-flex align-items-center bg-red p-5 rounded-2">
         <div class="col-sm-12 col-md-12 col-lg-9">
-            <h2 class="text-white">Get a personalized estimate.</h2>
+            <h2 class="text-white">Let’s get started.</h2>
             <p class="lead text-white">
-                Your life insurance policy is a financial asset – one that can be sold for cash.
+                Find out if you qualify faster than you can sing “877-SELL-EASY”
             </p>
+            <?php get_template_part( 'global-templates/zip-form'); ?>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-3">
-            <div class="d-grid gap-2">
-                <a href="<?php echo site_url("do-i-qualify"); ?>" class="btn btn-secondary" type="button">Qualify Now</a>
-                <button class="btn btn-secondary" type="button">021-345-4756</button>
-            </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 position-relative">
+        <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/SellEasy-Singers-Isolated.png" alt="" width="">
         </div>
     </div>
 </div>

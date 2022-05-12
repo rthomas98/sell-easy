@@ -4,23 +4,23 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 
 ?>
 
-<div class="sub-banner dark-tint d-flex align-items-center" style="background: url('<?php echo $thumbnail_url; ?>') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
-    <div class="container pt-5">
-        <div class="row ">
-            <div class="col-sm-12 col-md-12 col-lg-6 bg-blue p-5">
-                    <h1 class="text-white">
-                        Why do you want to sell your life insurance policy 
-                    </h1>
-                    <p class="lead text-white">
-                        Your life insurance policy is a financial asset – one that can be sold for cash.
-                    </p>
-                    <p class="mt-4">
-                        <a href="<?php echo site_url("do-i-qualify"); ?>" type="button" class="btn btn-primary btn-lg">
-                            Do I Qualify?
-                        </a>
-                    </p>
+<div class="banner py-5 d-flex align-items-center">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-1">
+                
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6"></div>
+            <div class="col-sm-12 col-md-12 col-lg-9">
+                <h1>Why should I sell my life insurance policy to someone else?</h1>
+                <p class="lead">
+                Great question! Read on to find out why Forbes says life settlements can be a much needed life line for seniors.
+                </p>
+
+                <?php get_template_part( 'global-templates/zip-form'); ?>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-2">
+                
+            </div>
         </div>
     </div>
 </div>

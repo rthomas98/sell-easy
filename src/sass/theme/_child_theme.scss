@@ -2,6 +2,7 @@
 
 /* navbar */
 #main-nav {
+    //background-color: rgba(7, 42, 200, .8);
     background-color: transparent;
     color: white;
     box-shadow: 0 0 0px transparent;
@@ -16,9 +17,17 @@
     color: white;
     transition: color 0.3s ease-out;
 
-    &:active {
-        color: $se-red;
+    .menu-item:hover {
+        border-top: 2px solid $se-red;
     }
+}
+
+#menu-item-52 {
+    margin-left: 40px;
+}
+
+.active {
+    border-top: 2px solid $se-red;
 }
 
 #main-nav .navbar-light .navbar-nav .nav-link:hover {
@@ -29,7 +38,103 @@
     background-color: $se-blue;
 }
 
+.zip-form {
+    position: relative;
+    max-width: 260px;
+
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .btn {
+            width: 30px;
+            border-radius: 0px 10px 10px 0px;
+            font-size: 24px;
+            padding: 0;
+        }
+
+        input {
+            border-radius: 10px 0px 0px 10px;
+        }
+    }
+    
+}
+
+.red-cta {
+
+    position: relative;
+    img {
+        position: absolute;
+        top: -135px;
+    }
+
+    .zip-form {
+        position: relative;
+        max-width: 260px;
+    
+        form {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+    
+            .btn {
+                width: 30px;
+                border-radius: 0px 10px 10px 0px;
+                font-size: 24px;
+                padding: 0;
+                background-color: $se-blue;
+            }
+    
+            input {
+                border-radius: 10px 0px 0px 10px;
+            }
+        }
+        p {
+            display: none;
+        }
+    }
+}
+
 /* home banner */
+
+.home-banner {
+    height: 90vh;
+    background: url("../img/home-banner-img.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    h1 {
+        position: relative;
+        color: white;
+        font-size: 80px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .zip-form {
+        display: block;
+        margin: 30px auto;
+
+        p {
+            color:white;
+            font-size: 24px;
+            text-shadow: 1px 1px 1px #000;
+        }
+    }
+ }
+
+.home-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    background: $se-blue;
+}
 
 .banner {
     height: 90vh;
@@ -43,13 +148,16 @@
     h1 {
         position: relative;
         color: white;
-        font-size: 88px;
+        font-size: 48px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #000;
     }
 
     p {
         position: relative;
         color: white;
         font-size: 24px;
+        text-shadow: 1px 1px 1px #000;
 
     }
 
@@ -71,8 +179,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .5;
-    background: $se-blue;
+    opacity: .2;
+    background: #000;
 }
 
 .sub-banner {
@@ -174,6 +282,8 @@
     background-color: $se-red;
     z-index: 100;
     position: relative;
+    border-radius: 10px;
+    
 
     h3 {
         color: white;
@@ -188,7 +298,7 @@
     margin-top: -100px;
 }
 .lead {
-    color: $se-grey;
+    color: black;
 }
 
 .white-box {
@@ -196,6 +306,14 @@
     z-index: 100;
     position: relative;
     background-color: white;
+    min-height: 320px;
+    border-radius: 10px;
+
+    .red-flag {
+        position: absolute;
+        left: -13px;
+        top: 20px
+    }
 }
 
 .img-holder {

@@ -47,7 +47,7 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 147, 147, 147;
+  --bs-body-color-rgb: 0, 0, 0;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -56,7 +56,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #939393;
+  --bs-body-color: #000000;
   --bs-body-bg: #fff;
 }
 
@@ -1957,15 +1957,15 @@ progress {
 .table, .wp-block-table table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #939393;
+  --bs-table-striped-color: #000000;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #939393;
+  --bs-table-active-color: #000000;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #939393;
+  --bs-table-hover-color: #000000;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #939393;
+  color: #000000;
   vertical-align: top;
   border-color: #dee2e6;
 }
@@ -2205,7 +2205,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #939393;
+  color: #000000;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2271,7 +2271,7 @@ progress {
 .wpcf7 select:focus,
 .wpcf7 textarea:focus, .widget_categories select:focus,
 .widget_archive select:focus {
-  color: #939393;
+  color: #000000;
   background-color: #fff;
   border-color: #ec8294;
   outline: 0;
@@ -2373,7 +2373,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #939393;
+  color: #000000;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2407,7 +2407,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #939393;
+  color: #000000;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2491,7 +2491,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #939393;
+  color: #000000;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -2554,7 +2554,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #939393;
+  color: #000000;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2650,7 +2650,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #939393;
+  color: #000000;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2682,7 +2682,7 @@ textarea.form-control-lg {
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #939393;
+  text-shadow: 0 0 0 #000000;
 }
 
 .form-select-sm {
@@ -3203,7 +3203,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #939393;
+  color: #000000;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -3982,7 +3982,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #939393;
+  color: #000000;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -4004,7 +4004,7 @@ textarea.form-control-lg {
   }
 }
 .btn:hover, .wpcf7 input[type=submit]:hover, .woocommerce-info a.button:hover, .woocommerce-notices-wrapper .woocommerce-message a.button:hover {
-  color: #939393;
+  color: #000000;
 }
 .btn-check:focus + .btn, .wpcf7 .btn-check:focus + input[type=submit], .woocommerce-info .btn-check:focus + a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-check:focus + a.button, .btn:focus, .wpcf7 input[type=submit]:focus, .woocommerce-info a.button:focus, .woocommerce-notices-wrapper .woocommerce-message a.button:focus {
   outline: 0;
@@ -4548,7 +4548,7 @@ textarea.form-control-lg {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
-  color: #939393;
+  color: #000000;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -5709,7 +5709,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #939393;
+  color: #000000;
   text-align: left;
   background-color: #fff;
   border: 0;
@@ -5737,7 +5737,7 @@ textarea.form-control-lg {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23939393'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform 0.2s ease-in-out;
@@ -6123,7 +6123,7 @@ textarea.form-control-lg {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #939393;
+  color: #000000;
   background-color: #e9ecef;
 }
 
@@ -7022,7 +7022,7 @@ textarea.form-control-lg {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #939393;
+  color: #000000;
 }
 
 .carousel {
@@ -15618,8 +15618,16 @@ figure.woocommerce-product-gallery__wrapper {
   color: white;
   transition: color 0.3s ease-out;
 }
-#main-nav .nav-link:active {
-  color: #D90429;
+#main-nav .nav-link .menu-item:hover {
+  border-top: 2px solid #D90429;
+}
+
+#menu-item-52 {
+  margin-left: 40px;
+}
+
+.active {
+  border-top: 2px solid #D90429;
 }
 
 #main-nav .navbar-light .navbar-nav .nav-link:hover {
@@ -15630,7 +15638,89 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: #072AC8;
 }
 
+.zip-form {
+  position: relative;
+  max-width: 260px;
+}
+.zip-form form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.zip-form form .btn, .zip-form form .wpcf7 input[type=submit], .wpcf7 .zip-form form input[type=submit], .zip-form form .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .zip-form form a.button, .zip-form form .woocommerce-info a.button, .woocommerce-info .zip-form form a.button {
+  width: 30px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 24px;
+  padding: 0;
+}
+.zip-form form input {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.red-cta {
+  position: relative;
+}
+.red-cta img {
+  position: absolute;
+  top: -135px;
+}
+.red-cta .zip-form {
+  position: relative;
+  max-width: 260px;
+}
+.red-cta .zip-form form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.red-cta .zip-form form .btn, .red-cta .zip-form form .wpcf7 input[type=submit], .wpcf7 .red-cta .zip-form form input[type=submit], .red-cta .zip-form form .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .red-cta .zip-form form a.button, .red-cta .zip-form form .woocommerce-info a.button, .woocommerce-info .red-cta .zip-form form a.button {
+  width: 30px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 24px;
+  padding: 0;
+  background-color: #072AC8;
+}
+.red-cta .zip-form form input {
+  border-radius: 10px 0px 0px 10px;
+}
+.red-cta .zip-form p {
+  display: none;
+}
+
 /* home banner */
+.home-banner {
+  height: 90vh;
+  background: url("../img/home-banner-img.png") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+.home-banner h1, .home-banner .h1 {
+  position: relative;
+  color: white;
+  font-size: 80px;
+  text-shadow: 1px 1px 1px #000;
+}
+.home-banner .zip-form {
+  display: block;
+  margin: 30px auto;
+}
+.home-banner .zip-form p {
+  color: white;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.home-banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  background: #072AC8;
+}
+
 .banner {
   height: 90vh;
   background: url("../img/home-banner.jpg") no-repeat center center fixed;
@@ -15640,12 +15730,15 @@ figure.woocommerce-product-gallery__wrapper {
 .banner h1, .banner .h1 {
   position: relative;
   color: white;
-  font-size: 88px;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
 }
 .banner p {
   position: relative;
   color: white;
   font-size: 24px;
+  text-shadow: 1px 1px 1px #000;
 }
 .banner .form-holder {
   background-color: white;
@@ -15663,8 +15756,8 @@ figure.woocommerce-product-gallery__wrapper {
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: 0.5;
-  background: #072AC8;
+  opacity: 0.2;
+  background: #000;
 }
 
 .sub-banner {
@@ -15756,6 +15849,7 @@ figure.woocommerce-product-gallery__wrapper {
   background-color: #D90429;
   z-index: 100;
   position: relative;
+  border-radius: 10px;
 }
 .red-box h3, .red-box .h3 {
   color: white;
@@ -15769,7 +15863,7 @@ figure.woocommerce-product-gallery__wrapper {
 }
 
 .lead {
-  color: #939393;
+  color: black;
 }
 
 .white-box {
@@ -15777,6 +15871,13 @@ figure.woocommerce-product-gallery__wrapper {
   z-index: 100;
   position: relative;
   background-color: white;
+  min-height: 320px;
+  border-radius: 10px;
+}
+.white-box .red-flag {
+  position: absolute;
+  left: -13px;
+  top: 20px;
 }
 
 .img-holder {
