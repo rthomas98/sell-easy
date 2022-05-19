@@ -15602,6 +15602,10 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
+html, body {
+  height: 100%;
+}
+
 /* navbar */
 #main-nav {
   background-color: transparent;
@@ -15961,6 +15965,99 @@ figure.woocommerce-product-gallery__wrapper {
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-content {
+  padding: 15%;
+}
+.form-content form input, .form-content form select, .form-content form textarea {
+  background-color: #EDEDED;
+  border: 1px solid #707070;
+}
+
+.form-sidebar {
+  position: relative;
+  background: url("../img/form-sidebar-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+.form-sidebar a img {
+  margin-bottom: 150px !important;
+}
+.form-sidebar h1, .form-sidebar .h1 {
+  position: relative;
+  color: white;
+}
+.form-sidebar p {
+  position: relative;
+}
+.form-sidebar ul#progressbar {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.form-sidebar ul#progressbar li {
+  color: white;
+  list-style: none;
+  margin-bottom: 15px;
+}
+.form-sidebar ul#progressbar li h4, .form-sidebar ul#progressbar li .h4 {
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.form-sidebar ul#progressbar li h4 span, .form-sidebar ul#progressbar li .h4 span {
+  background-color: white;
+  padding: 5px;
+  color: #072AC8;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.form-sidebar ul#progressbar li p {
+  color: white;
+  font-size: 14px;
+}
+
+.form-sidebar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  background: #072AC8;
+}
+
+.form-step {
+  display: none;
+}
+
+.form-step-active {
+  display: block;
+}
+
+.progress-step {
+  opacity: 0.3;
+}
+.progress-step p {
+  display: none;
+}
+
+.progress-step-active {
+  position: relative;
+  opacity: 100;
+}
+.progress-step-active p {
+  display: block;
 }
 
 .has-blue-color,

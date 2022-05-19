@@ -1,4 +1,30 @@
 // Add your custom JS here.
+var prevBtns = document.querySelectorAll(".btn-prev");
+var nextBtns = document.querySelectorAll(".btn-next");
+var formSteps = document.querySelectorAll(".form-step");
+
+let formStepsNum = 0;
+
+prevBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    formSteps--;
+    updateFormSteps();
+  });
+});
+
+nextBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    formSteps++;
+    updateFormSteps();
+  });
+});
+
+function updateFormSteps(){
+
+
+  formSteps[formStepsNum].classList.add("form-step-active");
+}
+
 
 jQuery(document).ready(function () {
     /*============================================
@@ -34,4 +60,4 @@ jQuery(document).ready(function () {
   })();
   
   });
-  
+

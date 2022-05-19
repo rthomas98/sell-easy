@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
 
+html, body {
+    height: 100%;
+}
+
 /* navbar */
 #main-nav {
     //background-color: rgba(7, 42, 200, .8);
@@ -404,4 +408,116 @@
     font-size: 1rem;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+// Form Page 
+
+.form-content {
+    padding: 15%;
+
+    form {
+
+        input, select, textarea {
+            background-color: #EDEDED;
+            border: 1px solid #707070;
+        }
+    }
+}
+
+.form-sidebar {
+    position: relative;
+    background: url("../img/form-sidebar-bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    a img {
+        margin-bottom: 150px !important;
+    }
+
+    h1 {
+        position: relative;
+        color: white;
+    }
+    p {
+        position: relative;
+    }
+
+    ul#progressbar {
+        position: relative;
+        margin: 0;
+            padding: 0;
+
+            li {
+                color: white;
+                list-style: none;
+                margin-bottom: 15px;
+
+                h4 {
+                    
+                    font-size: 24px;
+                    font-weight: 300;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    
+
+                    span {
+                        background-color: white;
+                        padding: 5px;
+                        color: $se-blue;
+                        border-radius: 50%;
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        text-align: center;
+                        font-size: 14px;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 10px;
+                    }
+                }
+                p {
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+    }
+}
+
+.form-sidebar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    background: $se-blue;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step-active {
+    display: block;
+}
+
+.progress-step {
+    opacity: .3;
+
+    p {
+        display: none;
+    }
+}
+.progress-step-active {
+    position: relative;
+    opacity: 100;
+
+    p {
+        display: block;
+    }
 }
