@@ -36,8 +36,7 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
     <div class="container pt-5">
         <div class="row ">
             <div class="col text-center">
-				<h1 class="text-white">Our Blog</h1>
-				<p class="text-white">Your life insurance policy is a financial asset – one that can be sold for cash.</p>
+				<h1 class="text-white">Articles</h1>
 			</div>
         </div>
     </div>

@@ -6,21 +6,23 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 
 <div class="banner py-5 d-flex align-items-center">
     <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-1">
-                
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="row d-flex align-items-center text-center">
+           
+            <div class="col">
                 <h1>Why should I sell my life insurance policy to someone else?</h1>
-                <p class="lead">
+                <p class="lead mb-5">
                 Great question! Read on to find out why Forbes says life settlements can be a much needed life line for seniors.
                 </p>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-5"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-2">
+                        <?php get_template_part( 'global-templates/zip-form'); ?>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-5"></div>
+                </div>
 
-                <?php get_template_part( 'global-templates/zip-form'); ?>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-2">
-                
-            </div>
+           
         </div>
     </div>
 </div>
@@ -29,15 +31,29 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
     <div class="row d-flex align-items-center">
         <div class="col-sm-12 col-md-12 col-lg-6">
             <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-us-img-1.jpg" alt="">
+            <p>
+                <small>
+                *According to a Penn State University study.
+                </small>
+            </p>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <p>Fusce posuere eu libero mattis condimentum.</p>
-            <h2>See how much you could get from a life settlement</h2>
+            <h2>Life Insurance is great. When it works…</h2>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at dui a nibh volutpat dapibus non a est. Fusce commodo, nisl ac interdum blandit, ipsum tellus hendrerit eros, et interdum est dolor faucibus tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis gravida tempus neque in hendrerit. Pellentesque dignissim ut ante vulputate convallis. Donec gravida, metus eget aliquam varius, eros lacus posuere lectus, ut ullamcorper orci nunc at orci. Phasellus faucibus odio nec eros feugiat pharetra. 
+            Don’t misunderstand, we really do think life insurance is a great tool that can provide for your loved ones in the event of your death. 
             </p>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at dui a nibh volutpat dapibus non a est. Fusce commodo, nisl ac interdum blandit, ipsum tellus hendrerit eros, et interdum est dolor faucibus tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                <strong>
+                However, almost 87% of all Universal Life policies and nearly 98% of all Term Life policies never result in a death claim.* 
+                </strong>
+            </p>
+
+            <p>
+                <strong>That’s a fact.</strong>
+            </p>
+
+            <p>
+            Don’t let your policy become a statistic. Rather than a lapse or surrender, selling your policy could provide on average four times more cash than you’d get from surrendering.
             </p>
         </div>
     </div>
@@ -46,64 +62,72 @@ $thumbnail_url = wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) );
 <div class="bg-light-grey py-5 mb-5">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <p>Fusce posuere eu libero mattis condimentum.</p>
-                <h2>See how much you could get from a life settlement</h2>
-                <p>
-                Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.                 </p>
-                <p>
-                Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.                 </p>
+            <div class="col">
+                <h2>You should consider selling your policy if…</h2>
+                <ul>
+                    <li>You can no longer afford the premiums.</li>
+                    <li>Your kids are grown and financially independent.</li>
+                    <li>You’ve outlived your beneficiary.</li>
+                    <li>You’d rather have money now than continue making premium payments.</li>
+                    <li>Changes in the estate tax exemption mean the policy is no longer necessary.</li>
+                    <li>…and really any other reason you can think of! Understanding what your policy is worth, even if you don’t want to sell it, is a wise decision. You never know when you’ll need to tap into that asset.</li>
+                </ul>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <?php gravity_form( 'Home Banner Form', false, false, false, '', false ); ?>
-            </div>
+            
         </div>
     </div>
 </div>
 
 <div class="container py-5 ">
-    <div class="row">
+    <div class="row mb-5">
         <div class="col text-center mb-4">
-            <p class="lead">
-                Your life insurance policy is a financial asset – one that can be sold for cash.
-            </p>
             <h2>
-                Why would I want to sell my life insurance?
+            See how selling their policy helped these people.
             </h2>
         </div>
     </div>
-    <div class="row mb-4">
+    <div class="row mb-5 d-flex align-items-center">
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-featured-1.jpg" alt="">
-            <h3>Your Policy No Longer Reflects Your Needs</h3>
-            <p>
-            Vestibulum ut congue sapien. Proin et ligula eget augue laoreet cursus. Donec a dapibus ante, id ornare enim. Sed ut massa nisi. Donec mauris mi, lacinia ac semper a, pretium quis nunc. Aenean vitae commodo risus, et ultrices orci. Integer ligula metus, tristique sit amet volutpat ut, fringilla at mauris. Suspendisse quis posuere mi. Integer facilisis orci a ex maximus, eget egestas metus venenatis
-            </p>
+            <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/shutterstock_432590614.png" alt="">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-featured-2.jpg" alt="">
-            <h3>You Don’t Want to Keep Making Premium Payments</h3>
             <p>
-            Vestibulum ut congue sapien. Proin et ligula eget augue laoreet cursus. Donec a dapibus ante, id ornare enim. Sed ut massa nisi. Donec mauris mi, lacinia ac semper a, pretium quis nunc. Aenean vitae commodo risus, et ultrices orci. Integer ligula metus, tristique sit amet volutpat ut, fringilla at mauris. Suspendisse quis posuere mi. Integer facilisis orci a ex maximus, eget egestas metus venenatis
+            Vinish and Diya saved for years to put their son through medical school. Now that he’s a successful physician, the Patels were looking to reduce their expenses in retirement. 
             </p>
-        </div>
-    </div>
-    <div class="row mb-4">
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-featured-3.jpg" alt="">
-            <h3>You Want to Keep Some Life Insurance But Get Rid of All the Payments</h3>
+
             <p>
-            Vestibulum ut congue sapien. Proin et ligula eget augue laoreet cursus. Donec a dapibus ante, id ornare enim. Sed ut massa nisi. Donec mauris mi, lacinia ac semper a, pretium quis nunc. Aenean vitae commodo risus, et ultrices orci. Integer ligula metus, tristique sit amet volutpat ut, fringilla at mauris. Suspendisse quis posuere mi. Integer facilisis orci a ex maximus, eget egestas metus venenatis
+            Their term policy was approaching the end of its conversion period and converting it meant a substantially higher premium. They nearly lapsed their policy before calling us.
             </p>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/why-featured-4.jpg" alt="">
-            <h3>You Have Medical or Long-Term Care Expenses</h3>
-            <p>
-            Vestibulum ut congue sapien. Proin et ligula eget augue laoreet cursus. Donec a dapibus ante, id ornare enim. Sed ut massa nisi. Donec mauris mi, lacinia ac semper a, pretium quis nunc. Aenean vitae commodo risus, et ultrices orci. Integer ligula metus, tristique sit amet volutpat ut, fringilla at mauris. Suspendisse quis posuere mi. Integer facilisis orci a ex maximus, eget egestas metus venenatis
-            </p>
+
+            <div class="bg-blue blue-block p-4">
+                <p>Vinish & Diya sold their $1,000,000 Term policy for</p>
+                <h3>$225,000</h3>
+                <h4> Insured’s age: 72 &amp; 68</h4>
+            </div>
         </div>
     </div>
+
+    <div class="row mb-5 d-flex align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <p>
+            Dave always wanted the best for his mother. And when she was diagnosed with Alzheimer’s Disease, he and his wife Sarah were determined to get her the best care possible. Then he saw the bill.
+            </p>
+
+            <p>
+            He was able to sell his mother’s life insurance policy to cover her long-term care needs and was able to give her the level of care she deserved.
+            </p>
+
+            <div class="bg-blue blue-block p-4">
+                <p>Dave sold his mother’s $500,000 Universal Life policy for</p>
+                <h3>$350,000</h3>
+                <h4>Insured’s age: 83</h4>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <img class="img-fluid mb-3" src="<?php echo get_stylesheet_directory_uri(); ?>/img/shutterstock_1513102676.png" alt="">
+        </div>
+    </div>
+    
 </div>
 
 

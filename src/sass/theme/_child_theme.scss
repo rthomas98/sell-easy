@@ -46,6 +46,10 @@ html, body {
     position: relative;
     max-width: 260px;
 
+    p {
+        font-size: 20px !important;
+    }
+
     form {
         display: flex;
         flex-direction: row;
@@ -64,6 +68,8 @@ html, body {
     }
     
 }
+
+
 
 .red-cta {
 
@@ -187,6 +193,100 @@ html, body {
     background: #000;
 }
 
+.process-banner {
+    height: 70vh;
+    background: url("../img/process-banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    h1 {
+        position: relative;
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    p {
+        position: relative;
+        color: white;
+        font-size: 24px;
+        text-shadow: 1px 1px 1px #000;
+
+    }
+
+    .form-holder {
+        background-color: white;
+        position: relative;
+
+        p {
+            font-size: 1em;
+            color: $se-grey;
+        }
+    }
+ }
+
+.process-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .2;
+    background: #000;
+}
+
+.worth-banner {
+    height: 70vh;
+    background: url("../img/process-banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    h1 {
+        position: relative;
+        color: white;
+        font-size: 48px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    p {
+        position: relative;
+        color: white;
+        font-size: 24px;
+        text-shadow: 1px 1px 1px #000;
+
+    }
+
+    .form-holder {
+        background-color: white;
+        position: relative;
+
+        p {
+            font-size: 1em;
+            color: $se-grey;
+        }
+    }
+ }
+
+.worth-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .2;
+    background: #000;
+}
+
 .sub-banner {
     height: 50vh;
 
@@ -242,8 +342,8 @@ html, body {
         right: 0;
         bottom: 0;
         left: 0;
-        opacity: .6;
-        background: $se-blue;
+        opacity: .1;
+        background: #000000;
     }
 }
 
@@ -274,6 +374,25 @@ html, body {
 
 .bg-light-grey {
     background-color: $se-light-grey;
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 20px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+
+            &:before {
+                content: url('../img/list-icon.png');
+                margin-right: 10px;
+                transform: scale(0.5);
+                
+            }
+        }
+    }
 }
 .bg-red {
     background-color: $se-red;
@@ -282,6 +401,42 @@ html, body {
     background-color: $se-blue;
     position: relative;
 }
+
+.blue-block {
+    color: #ffffff;
+
+    h3 {
+        color: #ffffff;
+        font-size: 45px;
+    }
+
+    h4 {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.blue-block-alt {
+    color: #ffffff;
+    min-height: 276px;
+
+    h3 {
+        color: #ffffff;
+        font-size: 35px;
+    }
+
+    h4 {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.white-block {
+    min-height: 212px;
+}
+
 .red-box {
     background-color: $se-red;
     z-index: 100;
